@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c4d0fd014.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo"></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <div class="profiletext">
+                <p>Web Developer</p>
+            <h1 style="display: inline;">Hi,I'm <span>Jyothika Sankar</span></h1>
+            </div>
+            <div class="profileimg">
+                <img src="./images/unnamed.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!------about-->
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                  <img src="./images/pic2.png">
+            </div>
+            <div class="about-col-2">
+                  <h1 class="sub-title">About me</h1>
+                  <p> Welcome to my portfolio! I'm Jyothika Sankar a enthusiastic
+                    individual who is passionate to explore new technologies.
+                   I am proficient at the programming Langauges-C,Python.
+                   I have great interest and professionally skilled at Front-End Web developement
+                   I have appreciable leadership and communication skills.
+                   My hobbies are reading and travelling.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web developement</span><br>Building websites</li>
+                        <li><span>App developement</span><br>Building Android Apps</li>
+                        <li><span>Robotics</span><br>Building humanoid robots</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2024</span><br>Angular developement intern at NEST</li>
+                        <li><span>2023</span><br>Python django intern at Camino Infotech.Ltd</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2028</span><br>UI/UX designing at MT institute</li>
+                        <li><span>2025</span><br>MBA from IIM</li>
+                        <li><span>2021</span><br>Btech from fisat</li>
+                    </ul>
+                   </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!------------services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>I have strong skills at HTML,CSS and javascript,I create attractive 
+                layouts for website.I give a best visual apperance for the websites
+            </p>
+            <a href="https://www.interaction-design.org/literature/topics/web-design">Learn More</a>
+           </div>
+           <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX design</h2>
+            <p>I have  decent prototyping ,visual designing skills.I find out the best 
+                ways to improve the product experience by user research and undergoing different
+                testing methods for the product
+            </p>
+            <a href="https://bootcamp.cvn.columbia.edu/blog/what-is-ux-design/">Learn More</a>
+           </div>
+           <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App design</h2>
+            <p>I gather requirements from business systems analysts and end users.
+                 & also determines which IT resources will be available to 
+                 support the application & then writes the design specifications 
+                 for the application programmers to implement.
+            </p>
+            <a href="#">Learn More</a>
+           </div>
+        </div>
+    </div>
+</div>
+<!-----My projects-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="work">
+                <img src="./images/wastemanage.jpg">
+                <div class="layer">
+                    <h3>Waste Mangement Website<br>using HTML,CSS,Javascript</h3>
+                    <p>A website simplifies the collection and swift disposal into recycling channels, 
+                        ensuring a sustainable waste management process</p>
+                    <a href=" https://1jy-svg.github.io/wasteco/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/tour1.jpg">
+                <div class="layer">
+                    <h3>Tourism Website <br> using HTML,CSS</h3>
+                    <p>A Tourism website that provides text, photos, video, 
+                        on travel destinations, hotels, accommodation, culture, heritage, art forms</p>
+                    <a href="https://1jy-svg.github.io/tour1/ "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/ecommerce.jpg">
+                <div class="layer">
+                    <h3>Ecommerce Website<br> using Angular</h3>
+                    <p>An e-commerce website  that allows people to buy and sell physical goods & digital products
+                         over the internet rather than at a brick-and-mortar location.</p>
+                    <a href="https://github.com/1Jy-svg/shopping.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/1Jy-svg/" class="btn">See More</a>
+    </div>
+</div>
+<!---contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="colleft">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>jyothikasankar2@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>8289850268</p>
+                <div class="social-icons">
+                    <a href="https://github.com/1Jy-svg/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jyothika-sankar-83b89828b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="" class="btn btn1">Download cv</a>
+            </div>
+            <div class="colright">
+               <form>
+                <input type="text" name="Your Name" placeholder="Enter your name"required>
+                <input type="email" name="Your Email"placeholder="Enter a valid email-id"required>
+                <textarea  name="Message"  rows =4 placeholder="Enter message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+               </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+</body>
+</html>
